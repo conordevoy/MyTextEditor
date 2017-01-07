@@ -11,8 +11,8 @@ import java.io.*;
  */
 public class MainWindow extends JFrame
 {
-    public TextField textPanel;
-    public File file;
+    private TextField textPanel;
+    private File file;
 
     public MainWindow()
     {

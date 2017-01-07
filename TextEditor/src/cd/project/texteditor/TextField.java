@@ -8,7 +8,7 @@ import javax.swing.*;
  */
 public class TextField extends JPanel
 {
-    public JTextArea textArea;
+    private JTextArea textArea;
 
     public TextField()
     {
