@@ -16,6 +16,7 @@ public class MainWindow extends JFrame
 
     public MainWindow()
     {
+        //Setting up the main window
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         textPanel = new TextField();
@@ -44,6 +45,7 @@ public class MainWindow extends JFrame
 
     public void buttonClickedOpen()
     {
+        //Functionality for 'OPEN' button, choosing a file to edit
         System.out.println("Open");
         JFileChooser chooser = new JFileChooser("./");
 
@@ -74,6 +76,7 @@ public class MainWindow extends JFrame
 
     public void buttonClickedSave()
     {
+        //Save button functionality, save the changes to the file
         System.out.println("Save");
         try
         {
@@ -87,6 +90,8 @@ public class MainWindow extends JFrame
             System.out.println("Error!");
         }
     }
+
+    //Listeners for button functionality
 
     ActionListener buttonListenerOpen = new ActionListener()
     {

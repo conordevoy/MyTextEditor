@@ -10,6 +10,7 @@ public class TextField extends JPanel
 {
     private JTextArea textArea;
 
+    //Sets up the text input area the user can interact with
     public TextField()
     {
         super(new GridLayout(0, 1));
