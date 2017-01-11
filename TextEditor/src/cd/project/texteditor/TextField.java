@@ -22,13 +22,13 @@ public class TextField extends JPanel
         add(textArea);
     }
 
-    String getText()
+    public String getText()
     {
         String saveText = textArea.getText();
         return saveText;
     }
 
-    void setText(String text)
+    public void setText(String text)
     {
         textArea.setText(text);
     }
